@@ -21,4 +21,4 @@
 ### Выбор модели и структуры обучающих данных
 Целевая метрика - PR-AUC
 * Первый вариант - использование классических подходов мл. Например, хорошим вариантом является Tabular LightAutoMl. Для него рассчитаем distances между соответствующими эмбеддингами для каждой пары. Pr-auc = 0.86
-* Второй - обучение нейронных сетей: Siamese Neural network с constastive loss Pr-auc = 0.82 или custom архитекруту для бинарной классификации c CrossEntropy loss. Pr-auc = 0.87
+* Второй - обучение нейронных сетей: Siamese Neural network с constastive loss Pr-auc = 0.82 или custom Neural network for binary classification c CrossEntropy loss. Pr-auc = 0.87
